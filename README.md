@@ -3,12 +3,12 @@
 Gradient based control of hexapod robot 'Daisy' using force feedback
 Since the work is not published yet, I cannot share our code base for the controller. However, I have some plots and videos:
 
-## Uneven terrain
+## Traffic Waves
 <div  align="center">
-<img src="./yuna_uneven_fb.gif" height="300" width="400" /> 
-<img src="./yuna_uneven_nofb.gif" height="300" width="400" />
+<img src="/Final%20files/simstrongwave.png" height="300" width="400" /> 
+<img src="/Final%20files/simulation.png" height="300" width="400" /> 
 </div>
- Without gradient based control(left)                     with gradient based control (right)
+ Snapshots from start of the cycle - waves created - waves dampened using follower stopper control
 
 ## Smooth terrain
 
@@ -21,12 +21,13 @@ Since the work is not published yet, I cannot share our code base for the contro
 ## Plots
 
 <div  align="center">
-<img src="./Yuna_openloop1.png" width="400" />
-<img src="./Yuna_control.png" width="400" />
+<img src="/Final%20files/simbest.png" width="400" />
+<img src="/Final%20files/simbest2.png" width="400" />
 </div>
- Without gradient based control(left)                     with gradient based control (right)
- 
- The graph should ideally be converge to 'zero' signifying equal workload distribution on each leg.
+
  
  ## All Videos
-https://drive.google.com/drive/folders/16vyU0-7pZt6hR2acLCtNc61eJzKQQNqU?usp=sharing
+<div  align="center">
+<img src="/Final%20files/Final%20Simulation%20Strong%20Waves.mp4" width="400" />
+<img src="/Final%20files/Final%20simulation%20Weak%20Waves.mp4" width="400" />
+</div>
